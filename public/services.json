@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": "300",
+        "description": " Something must be wrong but you have no idea what and it throws you into complete panic mode?",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "WHEEL ALIGNMENT",
+        "price": "100",
+        "description": "The primary angles are the basic angle alignment of the wheels relative to each other and to the car body. These adjustments are the camber, caster and toe.[2] On some cars, not all of these can be adjusted on every wheel..",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "OIL CHANGING",
+        "price": "150",
+        "description": "The idea of performing maintenance, even a relatively simple task such as an oil change, may seem daunting, if not downright impossible.",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "BRAKE REPAIRING",
+        "price": "180",
+        "description": "Auto brake repair is an essential part of vehicle maintenance, and ensuring your brakes are up to date can help you and those riding with you safe while on the road and help ensure your vehicle runs smoothly for more than a decade.",
+        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "WASH AND GLASSING",
+        "price": "100",
+        "description": "Keeping glass clean around your home can be a challenge unless you have the correct tools and methods to achieve streak-free windows and mirrors.",
+        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Car AC Checkup and Servicing",
+        "price": "100",
+        "description": "Diagnosis Bill Applicable if After Diagnosis Service not Avail For Critical Issues Car Need to Bring at Workshop",
+        "img": "https://i.ibb.co/0fyxnc9/Car-AC-Checkup-and-Servicing.jpg"
+    },
+    {
+        "id": 7,
+        "name": "COMPLETE ANALYSIS",
+        "price": "300",
+        "description": "Complete case analysis, also known as list wise deletion (LD), utilizes only the cases in a data set for which there are no missing values on any of the variables.",
+        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Blocked engine radiators",
+        "price": "300",
+        "description": "Old engine coolant thats not been kept clean over time can result in filling your engines radiators with unwanted sediment and deposits.  This is another common cause of overheating engines.  Try to avoid using hard water as coolant because you will run the risk of the radiators corroding over time due to limescale.",
+        "img": "https://i.ibb.co/LSYCpFv/Blocked-engine-radiators.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Aged spark plugs",
+        "price": "300",
+        "description": "This issue is particularly prevalent in older vehicles.  Spark plugs are designed to ignite the compressed fuel in the engine of your car.  An aged spark plug creates a weak ignition and can stop an engine from turning over i.e. misfiring.  This is another issue that results in inefficient fuel economy and can also cause serious long-term damage to the engine.",
+        "img": "https://i.ibb.co/19cZ5x0/Aged-spark-plugs.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Failing oil pump",
+        "price": "300",
+        "description": "The failure of an oil pump is extremely serious for the lifespan of any engine.  If an oil pump fails it will almost certainly starve the engine of necessary lubrication.  Always ensure that the engine oil you use in your engine is of a genuine viscosity, making it light enough to flow fast through the pump.",
+        "img": "https://i.ibb.co/60r4MFP/The-Must-Know-Oil-Pump-Failure-Symptoms-1200x720.jpg"
+    }
+]
