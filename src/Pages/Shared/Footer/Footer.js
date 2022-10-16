@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
+    const year = new Date().getFullYear()
     return (
         <footer>
-            <h1>footer live time</h1>
+            <p>genius car <small>&#169;</small> services {year}</p>
         </footer>
     );
 };
