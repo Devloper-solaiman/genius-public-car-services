@@ -1,0 +1,18 @@
+.login{
+    background: linear-gradient( green,black, rgba(255, 123, 0, 0.786));
+}
+.toContainer{
+    background: #000;
+    height: 650px;
+}
+.submitButton{
+    background: linear-gradient( rgba(132, 0, 255, 0.786),rgba(246, 226, 7, 0.89),#373);
+}
+.upToContainer{
+    background: linear-gradient(#373,#da6, #d45);
+    width: 3px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-right: 500px;
+}

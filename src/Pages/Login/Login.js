@@ -1,10 +1,44 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { Form, Button } from "react-bootstrap";
+import './Login.css'
 
 const Login = () => {
+    const emailRef = useRef('')
+    const passwordRef = useRef('')
+
+    const handleOnSubmit = (event) => {
+        event.preventDefault();
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+        console.log(email, password);
+    }
     return (
-        <div>
-            <h1>login</h1>
+
+        <div className="row toContainer">
+            <div className="col-md-4 upToContainer"></div>
+            <div className="col-md-4 ">
+                <div className='mt-5 mb-5 login rounded p-5'>
+                    <h1 className='text-info mb-4'>Login plse !!!!</h1>
+                    <Form onSubmit={handleOnSubmit}>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label> <h5 className='text-white'>Email address</h5> </Form.Label>
+                            <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+                        </Form.Group>
+
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label> <h5 className='text-white'>Password</h5> </Form.Label>
+                            <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+                        </Form.Group>
+
+                        <Button className='fs-4 mt-3 submitButton ' variant="dark" type="submit">
+                            Submit
+                        </Button>
+                    </Form>
+                </div>
+            </div>
+            <div className="col-md-4 upToContainer">.</div>
         </div>
+
     );
 };
 

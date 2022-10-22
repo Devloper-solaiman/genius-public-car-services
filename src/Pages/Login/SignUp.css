@@ -1,0 +1,6 @@
+.signUpBox{
+    background: linear-gradient(lime,goldenrod,black);
+}
+.signUpBtn{
+    background: linear-gradient(rgb(225, 0, 255),black,rgb(16, 28, 210));
+}
